@@ -22,7 +22,7 @@ class Form extends Component {
         return (
             <div className="form component">
                 <form method="POST"
-                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeJe3ncuoNbqKBLqxf8xo6Yy0mhLo3qiVfDA2cakFUkQlpW6g/formResponse"
+                    action="google form link"
                     onsubmit="return window.submitGoogleForm(this);"
                 >
                     <div className="image-container">
