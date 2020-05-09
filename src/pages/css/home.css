@@ -1,0 +1,329 @@
+
+.component{
+    background:#fff;
+    display:grid;
+    padding:10vh 10vw;
+    width:80vw;
+}
+.home{
+    position:fixed;
+    grid-template-columns:1fr 2fr;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    padding-top:18vh;
+    background:rgb(240, 249, 255);
+}
+
+
+.component-mobile, .home-mobile{
+    display:none;
+}
+
+
+
+
+
+
+.program{
+   grid-template-columns:1fr 2fr;
+}
+.program .image{
+    width:40vw;
+}
+.program .right{
+    text-align:center;
+}
+/* left */
+.component .home .left{
+    padding-top:10vh;
+}
+.component .title{
+    font-size:3vw;
+    font-weight:bold;
+    color:#DF4726;
+}
+.component .text{
+    font-size:1.2vw;
+    color:rgb(25, 25, 25);
+}
+.component .button{
+    padding-top:3vh;
+}
+.component button{
+    padding:1vh 1vw;
+    font-size:1vw;
+    border:none;
+    text-decoration:none;
+    text-transform:lowercase;
+}
+.component button a{
+    text-decoration:none;
+}
+.component .register{
+    background:#DF4726;
+    color:#fff;
+    border-radius:5px;
+}
+.component .learn-more{
+    background:none;
+    color:#DF4726;
+}
+.component .register a{
+    color:#fff;
+}
+.component .learn-more a{
+    color:#DF4726;
+}
+.home
+
+.home .left{
+    padding-top:7vh;
+}
+.home .right{
+    text-align:center;
+}
+.home .text{
+    padding-top:5vh;
+}
+.home .image{
+    width:35vw;
+}
+
+.content{
+    background:#fff;
+    margin-top:100vh;
+    width:100%;
+    position:absolute;
+    overflow:hidden;
+}
+
+
+
+
+
+
+
+/* tablet version */
+@media screen and (max-width:1024px){
+    .component, .home, .program, .facilitators{
+        display:none;
+    }
+    .component-mobile{
+        background:#fff;
+        padding:5vh 0;
+        display:block;
+    }
+    .home-mobile{
+        display:block;
+        position:fixed;
+        top:0;
+        left:0;
+        width:100vw;
+        height:100vh;
+        padding-top:15vh;
+        background:rgb(240, 249, 255);
+        text-align:center;
+    }
+    .home-mobile .image{
+        width:50vw;
+    }
+    .home-mobile .text-container,
+    .program-mobile .text-container{
+        padding:5vh 7.5vw;
+    }
+    .home-mobile .text-container .title{
+        color:#DF4726;
+        font-size:4vw;
+    }
+    .home-mobile .text-container .text,
+    .program-mobile .text-container .text{
+        padding-top:2vh;
+        font-size:2.5vw;
+    }
+    
+    
+    
+    
+    
+    .program-mobile{
+        text-align:center;
+    }
+    .program-mobile .image{
+        width:50vw;
+    }
+    .component-mobile .title{
+        font-size:3vw;
+        font-weight:bold;
+        color:rgb(25, 25, 25);
+    }
+    .component-mobile .text{
+        font-size:1.2vw;
+        color:rgb(25, 25, 25);
+    }
+    .component-mobile .button{
+        padding-top:3vh;
+    }
+    .component-mobile button{
+        padding:1.5vh 7.5vw;
+        font-size:2.5vw;
+        border:none;
+        text-decoration:none;
+        text-transform:lowercase;
+    }
+    .component-mobile button a{
+        text-decoration:none;
+    }
+    .component-mobile .register{
+        background:#DF4726;
+        color:#fff;
+        border-radius:5px;
+    }
+    .component-mobile .learn-more{
+        background:none;
+        color:#DF4726;
+    }
+    .component-mobile .register a{
+        color:#fff;
+    }
+    .component-mobile .learn-more a{
+        color:#DF4726;
+    }
+    .home-mobile .text{
+        padding-top:5vh;
+    }
+    .home-mobile .home-slide{
+        display:block;
+        width:60%;
+        margin:0;
+    }
+    
+    
+    .content{
+        background:#fff;
+        margin-top:100vh;
+        width:100%;
+        position:absolute;
+        overflow:hidden;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile version */
+@media screen and (max-width:600px){
+    .component, .home, .program, .facilitators{
+        display:none;
+    }
+    .component-mobile{
+        background:#fff;
+        padding:5vh 0;
+        display:block;
+    }
+    .home-mobile{
+        display:block;
+        position:fixed;
+        top:0;
+        left:0;
+        width:100vw;
+        height:100vh;
+        padding-top:10vh;
+        background:rgb(240, 249, 255);
+        text-align:center;
+    }
+    .home-mobile .image{
+        width:70vw;
+    }
+    .home-mobile .text-container,
+    .program-mobile .text-container{
+        padding:5vh 7.5vw;
+    }
+    .home-mobile .text-container .title{
+        color:#DF4726;
+        font-size:7.5vw;
+    }
+    .home-mobile .text-container .text,
+    .program-mobile .text-container .text{
+        padding-top:2vh;
+        font-size:4vw;
+    }
+    
+    
+    
+    
+    
+    .program-mobile{
+        text-align:center;
+    }
+    .program-mobile .image{
+        width:70vw;
+    }
+    .component-mobile .title{
+        font-size:3vw;
+        font-weight:bold;
+        color:rgb(25, 25, 25);
+    }
+    .component-mobile .text{
+        font-size:1.2vw;
+        color:rgb(25, 25, 25);
+    }
+    .component-mobile .button{
+        padding-top:3vh;
+    }
+    .component-mobile button{
+        padding:1.5vh 7.5vw;
+        font-size:4vw;
+        border:none;
+        text-decoration:none;
+        text-transform:lowercase;
+    }
+    .component-mobile button a{
+        text-decoration:none;
+    }
+    .component-mobile .register{
+        background:#DF4726;
+        color:#fff;
+        border-radius:5px;
+    }
+    .component-mobile .learn-more{
+        background:none;
+        color:#DF4726;
+    }
+    .component-mobile .register a{
+        color:#fff;
+    }
+    .component-mobile .learn-more a{
+        color:#DF4726;
+    }
+    .home-mobile .text{
+        padding-top:5vh;
+    }
+    .home-mobile .home-slide{
+        display:block;
+        width:60%;
+        margin:0;
+    }
+    
+    
+    .content{
+        background:#fff;
+        margin-top:100vh;
+        width:100%;
+        position:absolute;
+        overflow:hidden;
+    }
+    
+}

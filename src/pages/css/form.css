@@ -1,0 +1,212 @@
+.form{
+    text-align:center;
+    width:80vw;
+    margin:auto;
+    background:rgb(240, 249, 255);
+}
+.form form{
+    text-align:left;
+    box-shadow: 0 0 10px #dadada;
+    width:40vw;
+    margin:5vh auto;
+    padding:5vh 5vw;
+    background:#fff;
+}
+.form .image{
+    width:30vw;
+}
+.form .image-container{
+    text-align:center;
+    padding:4vh 0;
+}
+.form .instruction{
+    font-size:1.2vw;
+    color:#DF4726;
+    margin-bottom:6vh;
+    text-align:center;
+    padding:0 7.5vw;
+}
+.form .tab{
+    margin-bottom:7.5vh;
+}
+.form input, .form select{
+    background:#fff;
+    background:#dadada;
+    outline:none;
+    border:none;
+    border-radius:10px;
+    font-size:1vw;
+    padding:2vh 1vw;
+    margin-top:1vh;
+    transition:1s ease;
+}
+.form input{
+    width:90%;
+}
+.form select{
+    width:95%;
+}
+.form input:focus, .form select:focus{
+    background:#b5b5b5;
+}
+.form label{
+    font-size:1vw;
+    color:grey;
+    text-transform:uppercase;
+}
+.form button{
+    background:#DF4726;
+    color:#fff;
+    border-radius:5px;
+    padding:1vh 1vw;
+}
+
+
+
+
+
+
+
+/* navigation-tablet version */
+@media screen and (max-width:1024px){
+    .form{
+        text-align:center;
+        display:block;
+        padding:0;
+        width:auto;
+        margin:0;
+    }
+    .form form{
+        text-align:left;
+        box-shadow: none;
+        width:80vw;
+        margin:5vh 0;
+        padding:5vh 10vw;
+        background:#fff;
+    }
+    .form .image{
+        width:50vw;
+    }
+    .form .image-container{
+        text-align:center;
+        padding:4vh 0;
+    }
+    .form .instruction{
+        font-size:3vw;
+        color:#DF4726;
+        margin-bottom:6vh;
+        text-align:center;
+        padding:0 7.5vw;
+    }
+    .form .tab{
+        margin-bottom:2.5vh;
+    }
+    .form input, .form select{
+        background:#fff;
+        background:#dadada;
+        outline:none;
+        border:none;
+        border-radius:10px;
+        font-size:2vw;
+        padding:2vh 1vw;
+        margin-top:1vh;
+        transition:1s ease;
+    }
+    .form input{
+        width:95%;
+    }
+    .form select{
+        width:100%;
+    }
+    .form input:focus, .form select:focus{
+        background:#b5b5b5;
+    }
+    .form label{
+        font-size:2vw;
+        color:grey;
+        text-transform:uppercase;
+    }
+    .form button{
+        background:#DF4726;
+        color:#fff;
+        border-radius:5px;
+        font-size:2vw;
+        width:100%;
+        padding:2vh 1vw;
+    }
+}
+
+
+
+
+
+
+
+/* mobile version */
+@media screen and (max-width:600px){
+    .form{
+        text-align:center;
+        display:block;
+        padding:0;
+        width:auto;
+        margin:0;
+    }
+    .form form{
+        text-align:left;
+        box-shadow: none;
+        width:80vw;
+        margin:5vh 0;
+        padding:5vh 10vw;
+        background:#fff;
+    }
+    .form .image{
+        width:70vw;
+    }
+    .form .image-container{
+        text-align:center;
+        padding:4vh 0;
+    }
+    .form .instruction{
+        font-size:4vw;
+        color:#DF4726;
+        margin-bottom:6vh;
+        text-align:center;
+        padding:0 7.5vw;
+    }
+    .form .tab{
+        margin-bottom:2.5vh;
+    }
+    .form input, .form select{
+        background:#fff;
+        background:#dadada;
+        outline:none;
+        border:none;
+        border-radius:10px;
+        font-size:3vw;
+        padding:2vh 1vw;
+        margin-top:1vh;
+        transition:1s ease;
+    }
+    .form input{
+        width:95%;
+    }
+    .form select{
+        width:100%;
+    }
+    .form input:focus, .form select:focus{
+        background:#b5b5b5;
+    }
+    .form label{
+        font-size:3vw;
+        color:grey;
+        text-transform:uppercase;
+    }
+    .form button{
+        background:#DF4726;
+        color:#fff;
+        border-radius:5px;
+        font-size:3vw;
+        width:100%;
+        padding:2vh 1vw;
+    }
+}

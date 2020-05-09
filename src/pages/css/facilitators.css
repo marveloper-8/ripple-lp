@@ -1,0 +1,129 @@
+.facilitators{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    background:rgb(240, 249, 255);
+}
+
+
+
+
+/* navigation-tablet version */
+@media screen and (max-width:1024px){
+    .facilitators{
+        padding:5vh 3vw;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        background:rgb(240, 249, 255);
+        width:94vw;
+        text-align:center;
+    }
+}
+
+
+
+/* mobile version */
+@media screen and (max-width:600px){
+    .facilitators{
+        background:#fff;
+        display:block;
+        padding:0;
+        margin:0;
+        width:100vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.facilitators-sub{
+    background:rgba(255, 255, 255, .9);
+    text-align:center;
+    margin:0 1vw;
+    padding:4vh 0;
+    box-shadow: 0 5px 10px #dadada;
+}
+.facilitators-sub .text{
+    padding:2.5vh 2vw;
+    font-size:1vw;
+}
+.facilitators-sub .image{
+    border-radius:15vw;
+    border:#909090 5px solid;
+    background:#fff;
+    width:15vw;
+    height:15vw;
+    margin:auto;
+}
+.facilitators-sub .subhead{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+
+
+/* navigation-tablet version */
+@media screen and (max-width:1024px){
+    .facilitators-sub{
+        background:#fff;
+        text-align:center;
+        margin:0 2vw 4vh 0;
+        padding:4vh 5vw;
+    }
+    .facilitators-sub .text{
+        padding:2.5vh 2vw;
+        font-size:2vw;
+    }
+    .facilitators-sub .image{
+        border-radius:20vw;
+        border:#909090 2px solid;
+        background:#fff;
+        width:20vw;
+        height:20vw;
+        margin:auto;
+    }
+    .facilitators-sub .subhead{
+        text-decoration:underline;
+    }
+}
+
+
+
+/* mobile version */
+@media screen and (max-width:600px){
+    .facilitators-sub{
+        background:rgb(240, 249, 255);
+        text-align:center;
+        margin-bottom:3vh;
+        width:80vw;
+        padding:4vh 10vw;
+    }
+    .facilitators-sub .text{
+        padding:2.5vh 2vw;
+        font-size:4vw;
+    }
+    .facilitators-sub .image{
+        border-radius:60vw;
+        border:#909090 2px solid;
+        background:#fff;
+        width:60vw;
+        height:60vw;
+        margin:auto;
+    }
+    .facilitators-sub .subhead{
+        text-decoration:underline;
+    }    
+}
