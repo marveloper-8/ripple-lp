@@ -7,7 +7,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "@typeform/embed": "^0.17.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "google-form": "^1.0.2",
     "hero-slider": "^2.0.3",
     "node-sass": "^4.14.1",
