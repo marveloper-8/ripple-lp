@@ -10,7 +10,7 @@
     "axios": "^0.19.2",
     "google-form": "^1.0.2",
     "hero-slider": "^2.0.3",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-png-button": "^1.0.4",
